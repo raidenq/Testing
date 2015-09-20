@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 
 public class HubTester {
-
+	//is it working yet
 	public static int arrayAdd(int[] arr){
 		int sum = 0;
 		for(int a: arr){
@@ -40,7 +40,7 @@ public class HubTester {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	
+		factoring factor = new factoring();
 		int food[] = {7, 2, 19, 4, 9};
 		System.out.println(food.length);
 		if(food.length> food[3]){
@@ -70,11 +70,24 @@ public class HubTester {
 		}
 		int[] ne = dimArrayAdd(doom).clone();
 		System.out.println(ne[1]);
-		for(int i = 0; i<3; i++){
-			System.out.println("it ran"+ i);
-			
+		System.out.println(count(3));
+		int n = 2;
+		int m = 2;
+		n++;
+		++m;
+		int a = 4;
+
+		
+		int b = a++;
+
+		System.out.println(a);
+		System.out.println(b);
+		int c = ++a; 
+		System.out.println(c);
+		System.out.println(a);
+		System.out.println(factor.factor(80));
 		}
-		}
+	
 
 
 }
